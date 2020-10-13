@@ -47,7 +47,7 @@ Realized some of the files are actually just text, not binaries, which could be 
 	P-trinidad_M-HRPN_V-u__m-7.7.txt
 		=> uses "P-trinidad_M-HRPN_V-u__m-7.7.txt" instead?
 ```
-However, doing this didn't work either:
+However, tested with RAM base address from 0x160000 to 0x2c1000 in steps of 0x1000 with these symlinks but didn't work either:
 ```
 rm /lib/firmware/brcm/brcmfmac4364-pcie.*
 #
@@ -59,3 +59,4 @@ ln -s drv/trinidad.clmb                               /lib/firmware/brcm/brcmfma
 ln -s drv/P-trinidad_M-HRPN_V-u__m-7.7.txt            /lib/firmware/brcm/brcmfmac4364-pcie.txt
    ln -s /lib/firmware/brcm/brcmfmac4364-pcie.txt        /lib/firmware/brcm/brcmfmac4364-pcie.Apple\ Inc.-MacBookPro16,2.txt
 ```
+
