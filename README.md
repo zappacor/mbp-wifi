@@ -3,6 +3,7 @@
  Issues discussions:
   
  "mikeeq/mbp-fedora-kernel - WiFi issues #3" => https://github.com/mikeeq/mbp-fedora-kernel/issues/3
+ 
  "Dunedan/mbp-2016-linux - MacBook Pro 15+: Wifi Support #112" => https://github.com/Dunedan/mbp-2016-linux/issues/112
   
  Related info:
