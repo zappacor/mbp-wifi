@@ -66,7 +66,7 @@ Realized some of the files are actually just text, not binaries, which could be 
 	P-trinidad_M-HRPN_V-u__m-7.7.txt
 		=> uses "P-trinidad_M-HRPN_V-u__m-7.7.txt" instead?
 ```
-However, tested with RAM base address from 0x160000 to 0x2c1000 in steps of 0x1000 with these symlinks but didn't work either:
+However, ran "brcmRAMaddrTest-2.sh" to test RAM base addresses in the range 0x160000-0x2c1000 in steps of 0x1000 for these symlinks but didn't work either:
 ```
 rm /lib/firmware/brcm/brcmfmac4364-pcie.*
 #
