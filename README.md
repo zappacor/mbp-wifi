@@ -3,12 +3,15 @@
 *Issues discussions:*
 
   "mikeeq/mbp-fedora-kernel - WiFi issues #3" => https://github.com/mikeeq/mbp-fedora-kernel/issues/3
+  
   "Dunedan/mbp-2016-linux - MacBook Pro 15+: Wifi Support #112" => https://github.com/Dunedan/mbp-2016-linux/issues/112
   
 *Related info:*
  
   "brcmfmac: reset two D11 cores if chip has two D11 cores" => https://patchwork.kernel.org/patch/11286575
+  
   "Broadcom brcmsmac (PCIe) and brcmfmac (SDIO/USB) drivers" => https://wireless.wiki.kernel.org/en/users/drivers/brcm80211
+  
   "Reverse Engineering Broadcom Chips To Enable Packet Traffic Arbitration for 2.4GHz Co-Existence" => https://hackernoon.com/reverse-engineering-broadcom-chips-to-enable-packet-traffic-arbitration-for-24ghz-co-existence-zz1i3yr2
 
 **TESTS AND NOTES**
