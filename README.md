@@ -1,14 +1,15 @@
 **LINKS**
 
-Issues discussions:
+*Issues discussions:*
+
   "mikeeq/mbp-fedora-kernel - WiFi issues #3" => https://github.com/mikeeq/mbp-fedora-kernel/issues/3
   "Dunedan/mbp-2016-linux - MacBook Pro 15+: Wifi Support #112" => https://github.com/Dunedan/mbp-2016-linux/issues/112
   
- Related info:
+*Related info:*
  
- "brcmfmac: reset two D11 cores if chip has two D11 cores" => https://patchwork.kernel.org/patch/11286575
- "Broadcom brcmsmac (PCIe) and brcmfmac (SDIO/USB) drivers" => https://wireless.wiki.kernel.org/en/users/drivers/brcm80211
- "Reverse Engineering Broadcom Chips To Enable Packet Traffic Arbitration for 2.4GHz Co-Existence" => https://hackernoon.com/reverse-engineering-broadcom-chips-to-enable-packet-traffic-arbitration-for-24ghz-co-existence-zz1i3yr2
+  "brcmfmac: reset two D11 cores if chip has two D11 cores" => https://patchwork.kernel.org/patch/11286575
+  "Broadcom brcmsmac (PCIe) and brcmfmac (SDIO/USB) drivers" => https://wireless.wiki.kernel.org/en/users/drivers/brcm80211
+  "Reverse Engineering Broadcom Chips To Enable Packet Traffic Arbitration for 2.4GHz Co-Existence" => https://hackernoon.com/reverse-engineering-broadcom-chips-to-enable-packet-traffic-arbitration-for-24ghz-co-existence-zz1i3yr2
 
 **TESTS AND NOTES**
 
@@ -33,6 +34,7 @@ There are two D11 cores in RSDB chips like 4359. We have to reset two D11 cores 
 firmware download, or the firmware may not be initialized correctly and cause "fw initialized failed" error.
 ```
 **EDIT 1**
+
 Realized some of the files are actually just text, not binaries, which could be "interpreted" as some kind of pointer to the actual binaries:
 ```
 "Firmware"="C-4364__s-B3/trinidad.trx"
